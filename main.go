@@ -17,23 +17,15 @@ func main() {
 		case 1:
 			inputValores(&valor1, &valor2)
 			fmt.Println("o resultado da soma é: ", (valor1 + valor2))
-			valor1 = 0
-			valor2 = 0
 		case 2:
 			inputValores(&valor1, &valor2)
 			fmt.Println("o resultado da subtração é: ", (valor1 - valor2))
-			valor1 = 0
-			valor2 = 0
 		case 3:
 			inputValores(&valor1, &valor2)
 			fmt.Println("o resultado da multiplicação é: ", (valor1 * valor2))
-			valor1 = 0
-			valor2 = 0
 		case 4:
 			inputValores(&valor1, &valor2)
 			fmt.Println("o resultado da divisão é: ", (valor1 / valor2))
-			valor1 = 0
-			valor2 = 0
 		case 0:
 			fmt.Println("Saindo ...")
 			os.Exit(0)
